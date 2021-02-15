@@ -13,6 +13,10 @@ monster.outfit = {
 	lookMount = 0
 }
 
+	monster.level = {
+	min="5",
+	max="100"
+	}	
 monster.raceId = 1134
 monster.Bestiary = {
 	class = "Demon",

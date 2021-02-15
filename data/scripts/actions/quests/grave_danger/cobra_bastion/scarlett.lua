@@ -29,6 +29,10 @@ end
 
 local graveScarlettUid = Action()
 function graveScarlettUid.onUse(player, item, fromPosition, target, toPosition, isHotkey)
+	local player = player:getPlayer()
+	if not player or player:isInGhostMode() then
+		return false
+	end
 	local playersTable = {}
 	if item:getUniqueId() == 40028 then
 		if player:doCheckBossRoom(info.bossName, info.fromPos, info.toPos) then
@@ -115,9 +119,12 @@ function graveScarlettAid.onUse(player, item, fromPosition, target, toPosition, 
 				SCARLETT_MAY_TRANSFORM = 0
 			end, 1 * 1000)
 		elseif item.itemid == entry.metalWallId then
+		
 			if player:getPosition().y == entry.roomExitPos.y then
+							player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "arrombado a"  )
 				player:teleportTo(entry.roomEntryPos)
 			else
+				player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "arrombado")
 				player:teleportTo(entry.roomExitPos)
 			end
 		end

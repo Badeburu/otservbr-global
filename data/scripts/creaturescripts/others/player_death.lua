@@ -1,7 +1,10 @@
 local deathListEnabled = true
-
+local STG_HP_SINO = 135472
+local STG_TP_SINO = 135473
+local STG_CM_SINO = 135474
 local playerDeath = CreatureEvent("PlayerDeath")
 function playerDeath.onDeath(player, corpse, killer, mostDamageKiller, unjustified, mostDamageUnjustified)
+	player:setStorageValue(STG_HP_SINO, 0)
 	local playerId = player:getId()
 	if nextUseStaminaTime[playerId] ~= nil then
 		nextUseStaminaTime[playerId] = nil

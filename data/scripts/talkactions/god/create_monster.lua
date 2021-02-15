@@ -13,6 +13,7 @@ function createMonster.onSay(player, words, param)
 	local position = player:getPosition()
 	local monster = Game.createMonster(param, position)
 	if monster then
+	 Game.createMonster(param, position)
 		monster:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
 		position:sendMagicEffect(CONST_ME_MAGIC_RED)
 	else

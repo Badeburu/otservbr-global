@@ -17,9 +17,9 @@ monster.raceId = 1962
 monster.Bestiary = {
 	class = "Undead",
 	race = BESTY_RACE_UNDEAD,
-	toKill = 5000,
-	FirstUnlock = 25,
-	SecondUnlock = 2500,
+	toKill = 5,
+	FirstUnlock = 1,
+	SecondUnlock = 5,
 	CharmsPoints = 100,
 	Stars = 5,
 	Occurrence = 0,
@@ -82,19 +82,17 @@ monster.voices = {
 
 monster.loot = {
 	{name = "crystal coin", chance = 70540},
-	{name = "platinum coin", chance = 81920, maxCount = 33},
-	{name = "great spirit potion", chance = 51920, maxCount = 8},
-	{name = "violet gem", chance = 74560},
-	{name = "spellbook of warding", chance = 41920},
-	{name = "underworld rod", chance = 31920},
-	{name = "springsprout rod", chance = 28920},
-	{name = "gold ingot", chance = 54560},
-	{name = "glacial rod", chance = 44560},
-	{id = 26185, chance = 28920}, -- Ring of blue plasma
-	{id = 26187, chance = 28920}, -- Ring of green plasma
-	{id = 26189, chance = 28920}, -- Ring of red plasma
-	{id = 38977, chance = 18920}, -- Distorted hearth
-	{id = 38984, chance = 11920}, -- Distorted robe
+	{name = "great spirit potion", chance = 69920, maxCount = 8},
+	{name = "spellbook of warding", chance = 1020},
+	{name = "underworld rod", chance = 1020},
+	{name = "springsprout rod", chance = 1020},
+	{name = "gold ingot", chance = 1060},
+	{name = "glacial rod", chance = 1060},
+	{id = 26185, chance = 1090}, -- Ring of blue plasma
+	{id = 26187, chance = 1080}, -- Ring of green plasma
+	{id = 26189, chance = 1070}, -- Ring of red plasma
+	{id = 38977, chance = 1060}, -- Distorted hearth
+	{id = 38984, chance = 1040}, -- Distorted robe
 	{id = 38944, chance = 50} -- Bag you desire
 }
 

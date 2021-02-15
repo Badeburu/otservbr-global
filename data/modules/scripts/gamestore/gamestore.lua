@@ -10,7 +10,7 @@ dofile('data/modules/scripts/gamestore/init.lua')
 -- Config
 
 HomeBanners = {
-    images = { "home/banner_cunninghyaena.png", "home/banner_jousters.png" },
+	images = { "home/banner_runemaster.png", "home/banner_cunninghyaena.png", "home/banner_jousters.png" },
     delay = 10
 }
 
@@ -2262,6 +2262,16 @@ GameStore.Categories = {
           type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
           home = true,
         },
+		{
+		  icons = { "Outfit_Rune_Master_Male_Addon_3.png", "Outfit_Rune_Master_Female_Addon_3.png" },
+          name = "Full Rune Master Outfit",
+          price = 870,
+          sexId = {female = 1385, male = 1384},
+          addon = 3,
+          description = "{character}\n{info} colours can be changed using the Outfit dialog\n\nA Rune Master has dedicated their whole life to the study and mastery of runes. They are intrigued by the ancient symbols, shrouded in mystery, and how their magic works. Rune Masters have a deep understanding of the awesome power they are wielding and can make use of the full potential of runes.</i>",
+          type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
+          home = true,
+        },
       },
    rookgaard = true,
    state = GameStore.States.STATE_NONE,
@@ -4130,9 +4140,9 @@ GameStore.Categories = {
         {
           icons = { "Gold_Converter.png" },
           name = "Gold Converter",
-          price = 5,
+          price = 1,
           itemtype = 26378,
-          charges = 500,
+          charges = 999999999,
           description = "<i>Changes either a stack of 100 gold pieces into 1 platinum coin, or a stack of 100 platinum coins into 1 crystal coin!</i>\n\n{character}\n{storeinbox}\n{useicon} use it on a stack of 100 to change it to the superior currency\n{info} usable 500 times a piece",
           type = GameStore.OfferTypes.OFFER_TYPE_CHARGES,
         },
@@ -4165,9 +4175,8 @@ GameStore.Categories = {
         {
           icons = { "Magic_Gold_Converter.png" },
           name = "Magic Gold Converter",
-          price = 15,
+          price = 0,
           itemtype = 32109,
-          charges = 500,
           description = "<i>Changes automatically either a stack of 100 gold pieces into 1 platinum coin, or a stack of 100 platinum coins into 1 crystal coin!</i>\n\n{character}\n{storeinbox}\n{useicon} use it to activate or deactivate the automatic conversion\n{info} converts all stacks of 100 gold or platinum in the inventory whenever it is activated\n{info} deactivated upon purchase\n{info} usable for 500 conversions a piece",
           type = GameStore.OfferTypes.OFFER_TYPE_CHARGES,
         },

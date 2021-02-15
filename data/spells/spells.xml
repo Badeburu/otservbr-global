@@ -169,6 +169,10 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
+		<instant group="attack" secondarygroup="focus" spellid="118" name="Eternal Winter" words="exevo buraco" lvl="60" mana="0" prem="1" selftarget="1" exhaustion="1000" groupcooldown="1000" secondarygroupcooldown="40000" needlearn="0" script="attack/buraco.lua">
+		<vocation name="Druid" />
+		<vocation name="Elder Druid" />
+	</instant>
 	<instant group="attack" spellid="111" name="Ethereal Spear" words="exori con" lvl="23" mana="25" prem="1" range="7" needtarget="1" exhaustion="2000" groupcooldown="2000" blockwalls="1" needlearn="0" script="attack/ethereal spear.lua">
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" />
@@ -241,7 +245,7 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant group="attack" secondarygroup="focus" spellid="24" name="Hell's Core" words="exevo gran mas flam" lvl="60" mana="1100" prem="1" exhaustion="40000" groupcooldown="4000" secondarygroupcooldown="40000" selftarget="1" needlearn="0" script="attack/hells core.lua">
+	<instant group="attack" secondarygroup="focus" spellid="24" name="Hell's Core" words="exevo gran mas flam" lvl="60" mana="0" prem="1" exhaustion="500" groupcooldown="500" secondarygroupcooldown="500" selftarget="1" needlearn="0" script="attack/hells core.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
@@ -489,7 +493,7 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
-	<instant group="healing" spellid="241" name="Restoration" words="exura max vita" lvl="300" mana="260" aggressive="0" selftarget="1" exhaustion="6000" groupcooldown="1000" needlearn="0" script="healing/restoration.lua">
+	<instant group="healing" spellid="241" name="Restoration" words="exura max vita" lvl="300" mana="260" aggressive="0" selftarget="1" exhaustion="1000" groupcooldown="1000" needlearn="0" script="healing/restoration.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <events>
-	<event name="Otservbr example 1" startdate="11/03/2020" enddate="11/30/2020" script="example.lua" >
-		<ingame exprate="250" lootrate="200" spawnrate="100" skillrate="200" />
+	<event name="Faster boom!" startdate="02/07/2021" enddate="02/10/2021" script="example.lua" >
+		<ingame exprate="15000" lootrate="400" spawnrate="500" skillrate="1200" />
 		<description description="Otserver br example 1 description double exp and a half, double loot !chance!, regular spawn and double skill" />
 		<colors colordark="#235c00" colorlight="#2d7400" />
 		<details displaypriority="6" isseasonal="0" specialevent="0" />

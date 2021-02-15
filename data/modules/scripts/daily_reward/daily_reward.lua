@@ -70,7 +70,7 @@ local DailyRewardItems = {
 }
 
 DailyReward = {
-	testMode = false,
+	testMode = true,
 	serverTimeThreshold = (24 * 60 * 60), -- Counting down 24hours from last server save
 
 	storages = {

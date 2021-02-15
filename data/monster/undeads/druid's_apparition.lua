@@ -17,9 +17,9 @@ monster.raceId = 1946
 monster.Bestiary = {
 	class = "Undead",
 	race = BESTY_RACE_UNDEAD,
-	toKill = 5000,
-	FirstUnlock = 25,
-	SecondUnlock = 2500,
+	toKill = 5,
+	FirstUnlock = 1,
+	SecondUnlock = 5,
 	CharmsPoints = 100,
 	Stars = 5,
 	Occurrence = 0,
@@ -81,18 +81,20 @@ monster.voices = {
 
 monster.loot = {
 	{name = "crystal coin", chance = 70540},
-	{name = "platinum coin", chance = 81920, maxCount = 33},
-	{name = "great mana potion", chance = 71920, maxCount = 5},
-	{name = "green gem", chance = 64560},
-	{name = "terra rod", chance = 41920},
-	{name = "stone skin amulet", chance = 31920},
-	{name = "magma amulet", chance = 21920},
-	{name = "glacier robe", chance = 15920},
-	{name = "platinum amulet", chance = 13920},
-	{name = "underworld rod", chance = 18920},
-	{name = "springsprout rod", chance = 14920},
-	{name = "sacred tree amulet", chance = 19920},
-	{id = 26200, chance = 29000} -- Collar of red plasma
+	{name = "platinum coin", chance = 11920, maxCount = 33},
+	{name = "great mana potion", chance = 11920, maxCount = 5},
+	{name = "green gem", chance = 14560},
+	{name = "blue gem", chance = 14560},
+	{name = "terra rod", chance = 14920},
+	{name = "stone skin amulet", chance = 11920},
+	{name = "magma amulet", chance = 4520},
+	{name = "glacier robe", chance = 4920},
+	{name = "platinum amulet", chance = 3920},
+	{name = "underworld rod", chance = 4920},
+	{name = "springsprout rod", chance = 4920},
+	{name = "sacred tree amulet", chance = 4920},
+		{name = "bag you desire", chance = 5},
+	{id = 26200, chance = 4000} -- Collar of red plasma
 }
 
 monster.attacks = {

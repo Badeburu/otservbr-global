@@ -17,9 +17,9 @@ monster.raceId = 1949
 monster.Bestiary = {
 	class = "Undead",
 	race = BESTY_RACE_UNDEAD,
-	toKill = 5000,
-	FirstUnlock = 25,
-	SecondUnlock = 2500,
+	toKill = 5,
+	FirstUnlock = 1,
+	SecondUnlock = 5,
 	CharmsPoints = 100,
 	Stars = 5,
 	Occurrence = 0,
@@ -81,18 +81,18 @@ monster.voices = {
 monster.loot = {
 	{name = "crystal coin", chance = 70540},
 	{name = "platinum coin", chance = 81920, maxCount = 33},
-	{name = "great mana potion", chance = 71920, maxCount = 5},
-	{id = 7632, chance = 54560}, -- Giant shimmering pearl
-	{id = 7633, chance = 54560}, -- Giant shimmering pearl
-	{name = "blue gem", chance = 64560},
-	{id = 26189, chance = 29000}, -- Ring of red plasma
-	{name = "wand of voodoo", chance = 31920},
-	{name = "wand of defiance", chance = 25920},
-	{name = "wand of everblazing", chance = 20920},
-	{name = "alloy legs", chance = 17920},
-	{id = 26185, chance = 29000}, -- Ring of blue plasma
-	{id = 26187, chance = 29000}, -- Ring of green plasma
-	{name = "wand of starstorm", chance = 11920}
+	{name = "great mana potion", chance = 81920, maxCount = 5},
+	{id = 7632, chance = 14560}, -- Giant shimmering pearl
+	{name = "blue gem", chance = 14560},
+	{id = 26189, chance =12900}, -- Ring of red plasma
+	{name = "wand of voodoo", chance = 4920},
+	{name = "wand of defiance", chance = 4920},
+	{name = "wand of everblazing", chance = 4920},
+	{name = "alloy legs", chance = 4920},
+	{id = 26185, chance = 4000}, -- Ring of blue plasma
+	{id = 26187, chance = 4000}, -- Ring of green plasma
+			{name = "bag you desire", chance = 5},
+	{name = "wand of starstorm", chance = 1920}
 }
 
 monster.attacks = {

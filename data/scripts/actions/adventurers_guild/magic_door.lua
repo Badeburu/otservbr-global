@@ -2,6 +2,10 @@ local magicDoor = Action()
 
 function magicDoor.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	local playerPos, destination = player:getPosition()
+		if item.itemid == 5132 then
+					item:transform(5133)
+			player:teleportTo(toPosition)
+		end
 	if item.itemid == 19598 then
 		player:setStorageValue(Storage.AdventurersGuild.MagicDoor, 1)
 		destination = Position(32292, 32293, 7)

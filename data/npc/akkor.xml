@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Akkor" walkinterval="5000000" floorchange="0" script="custom/viajante.lua">
+	<health now="100" max="100"/>
+	<look type="1314" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<voices>
+		<voice text="Venha sentir a força do mundo inferior!" interval2="100" margin="1" yell="no"/>
+	</voices>
+</npc>

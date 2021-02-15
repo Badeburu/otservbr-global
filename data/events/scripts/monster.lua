@@ -4,6 +4,7 @@ function Monster:onDropLoot(corpse)
 	end
 
 	local mType = self:getType()
+	--local randomValue = math.random(1, 5) -- 20% chance to have "bonus" loot
 	if mType:isRewardBoss() then
 		corpse:registerReward()
 		return
@@ -21,7 +22,19 @@ function Monster:onDropLoot(corpse)
 					boolCharm = true
 				end
 			end
-		
+--if player:isVip() and randomValue ==  1 then -- checking if player have the required storage to trigger the "double" loot and chance
+               -- local randomDoubleItem = corpse:createLootItem(monsterLoot[i]) -- creating the loot (duplicated and triplicated lmao)
+               -- corpse:getPosition():sendMagicEffect(CONST_ME_STUN)
+           -- end
+local vipPercentLoot = 0
+if player:isVip() then
+	local percent = 5 -- 20% mais loot
+	if percent then
+		vipPercentLoot = (percent / 100)
+	end
+end
+	monsterLoot[i].chance = monsterLoot[i].chance + (monsterLoot[i].chance * vipPercentLoot)
+
 			local item = corpse:createLootItem(monsterLoot[i], boolCharm)
 			if self:getName():lower() == (Game.getBoostedCreature()):lower() then
 				local itemBoosted = corpse:createLootItem(monsterLoot[i], boolCharm)

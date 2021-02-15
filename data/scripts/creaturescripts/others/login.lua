@@ -21,6 +21,9 @@ end
 local playerLogin = CreatureEvent("PlayerLogin")
 
 function playerLogin.onLogin(player)
+	player:loadVipData()
+player:updateVipTime()
+player:addAddonMount()
 	local items = {
 		{2120, 1},
 		{2148, 3}

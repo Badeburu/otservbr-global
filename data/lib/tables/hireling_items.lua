@@ -168,6 +168,7 @@ HIRELING_GOODS  =  {
 		{name = "bow", id = 2456, buy = 400, sell = 100},
 		{name = "crossbow", id = 2455, buy = 500, sell = 120},
 		{name = "crystalline arrow", id = 18304, buy = 20},
+		{name = "diamond arrow", id = 40736, buy = 100},
 		{name = "drill bolt", id = 18436, buy = 12},
 		{name = "earth arrow", id = 7850, buy = 5},
 		{name = "envenomed arrow", id = 18437, buy = 12},

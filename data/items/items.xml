@@ -38667,6 +38667,11 @@
 		<attribute key="type" value="teleport" />
 		<attribute key="effect" value="teleport" />
 	</item>
+		<item fromid="37837" toid="37842" article="a" name="portal">
+		<attribute key="description" value="You can see the other side through it." />
+		<attribute key="type" value="teleport" />
+		<attribute key="effect" value="teleport" />
+	</item>
 	<item fromid="27717" toid="27718" article="a" name="portal of green energy">
 		<attribute key="description" value="You can see the other side through it." />
 		<attribute key="type" value="teleport" />

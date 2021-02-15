@@ -17,9 +17,9 @@ monster.raceId = 1948
 monster.Bestiary = {
 	class = "Undead",
 	race = BESTY_RACE_UNDEAD,
-	toKill = 5000,
-	FirstUnlock = 25,
-	SecondUnlock = 2500,
+	toKill = 5,
+	FirstUnlock = 1,
+	SecondUnlock = 5,
 	CharmsPoints = 100,
 	Stars = 5,
 	Occurrence = 0,
@@ -82,15 +82,17 @@ monster.voices = {
 monster.loot = {
 	{name = "crystal coin", chance = 70540},
 	{name = "platinum coin", chance = 81920, maxCount = 33},
-	{name = "violet gem", chance = 64560},
-	{name = "green gem", chance = 54560},
-	{name = "blue gem", chance = 44560},
-	{name = "warrior helmet", chance = 31920},
-	{name = "great spirit potion", chance = 71920, maxCount = 5},
-	{name = "glacier mask", chance = 31920},
-	{name = "wood cape", chance = 21920},
-	{name = "skull helmet", chance = 18920},
-	{id = 26185, chance = 29000} -- Ring of blue plasma
+	{name = "violet gem", chance = 14560},
+	{name = "green gem", chance = 14560},
+	{name = "blue gem", chance = 14560},
+	{name = "warrior helmet", chance = 11920},
+	{name = "great spirit potion", chance = 11920, maxCount = 5},
+	{name = "glacier mask", chance = 4290},
+	{name = "wood cape", chance = 4920},
+	{name = "skull helmet", chance = 4920},
+	{id = 26198, chance = 4290},
+		{name = "bag you desire", chance = 5},
+	{id = 26185, chance = 4000} -- Ring of blue plasma
 }
 
 monster.attacks = {

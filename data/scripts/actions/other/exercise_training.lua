@@ -57,9 +57,9 @@ local function startTraining(playerId, startPosition, itemid, tilePosition, bonu
                                 if skills[itemid].id == SKILL_MAGLEVEL then
                                     local magicRate = getRateFromTable(magicLevelStages, player:getMagicLevel(), magicRateDefault)
                                     if not bonusDummy then
-                                        player:addManaSpent(math.ceil(500*magicRate))
+                                        player:addManaSpent(math.ceil(400*magicRate))
                                     else
-                                        player:addManaSpent(math.ceil(500*magicRate)*1.1) -- 10%
+                                        player:addManaSpent(math.ceil(400*magicRate)*1.1) -- 10%
                                     end
                                 else
                                     local skillRate = getRateFromTable(skillsStages, player:getEffectiveSkillLevel(skills[itemid].id), skillRateDefault)
@@ -76,7 +76,7 @@ local function startTraining(playerId, startPosition, itemid, tilePosition, bonu
                                 if exercise:getAttribute(ITEM_ATTRIBUTE_CHARGES) == 0 then
                                     removeExerciseWeapon(player, exercise)
                                 else
-                                    local training = addEvent(startTraining, voc:getAttackSpeed(), playerId,startPosition,itemid,tilePosition,bonusDummy,dummyId)
+                                    local training = addEvent(startTraining, 0.7*1000, playerId,startPosition,itemid,tilePosition,bonusDummy,dummyId)
                                     player:setStorageValue(Storage.isTraining,1)
                                     player:setTraining(true)
                                 end

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <houses>
+	<house name="" houseid="1" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="45" />
 	<house name="Castle of the Winds" houseid="2628" entryx="32657" entryy="31583" entryz="7" rent="500000" guildhall="true" townid="5" size="415" />
 	<house name="Ab'Dendriel Clanhall" houseid="2629" entryx="32714" entryy="31643" entryz="7" rent="250000" guildhall="true" townid="5" size="263" />
 	<house name="Underwood 9" houseid="2630" entryx="32712" entryy="31665" entryz="7" rent="50000" townid="5" size="8" />

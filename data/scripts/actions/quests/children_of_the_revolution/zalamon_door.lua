@@ -1,15 +1,12 @@
 local childrenZalamon = Action()
 function childrenZalamon.onUse(player, item, fromPosition, target, toPosition, isHotkey)
-	if player:getStorageValue(Storage.TheNewFrontier.Mission08) >= 2 and player:getStorageValue(Storage.WrathoftheEmperor.Mission11) < 2 then
-		if item.itemid == 10791 then
+		if item.itemid == 10791 or item.itemid == 5132  or item.itemid == 5123 then
 			player:teleportTo(toPosition, true)
 			item:transform(item.itemid + 1)
 		end
-	else
-		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The door seems to be sealed against unwanted intruders.")
-	end
 	return true
 end
 
-childrenZalamon:uid(3170)
+childrenZalamon:id(5132)
+childrenZalamon:id(5123)
 childrenZalamon:register()

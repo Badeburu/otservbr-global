@@ -17,9 +17,9 @@ monster.raceId = 1947
 monster.Bestiary = {
 	class = "Undead",
 	race = BESTY_RACE_UNDEAD,
-	toKill = 5000,
-	FirstUnlock = 25,
-	SecondUnlock = 2500,
+	toKill = 5,
+	FirstUnlock = 1,
+	SecondUnlock = 5,
 	CharmsPoints = 100,
 	Stars = 5,
 	Occurrence = 0,
@@ -82,14 +82,16 @@ monster.voices = {
 monster.loot = {
 	{name = "crystal coin", chance = 70540},
 	{name = "platinum coin", chance = 81920, maxCount = 33},
-	{name = "green gem", chance = 64560},
-	{name = "epee", chance = 31920},
-	{name = "ultimate health potion", chance = 71920, maxCount = 5},
-	{name = "violet gem", chance = 44560},
-	{name = "giant sword", chance = 25920},
-	{name = "crystal mace", chance = 22920},
-	{name = "crown shield", chance = 18920},
-	{name = "jade hammer", chance = 15920}
+	{name = "green gem", chance = 14560},
+	{name = "epee", chance = 11920},
+	{name = "ultimate health potion", chance = 11920, maxCount = 5},
+	{name = "violet gem", chance = 4560},
+	{name = "giant sword", chance = 4920},
+	{name = "crystal mace", chance = 4920},
+	{name = "crown shield", chance = 4920},
+	{name = "jade hammer", chance = 4920},
+	{name = "stone skin amulet", chance = 2001},
+	{name = "bag you desire", chance = 5}
 }
 
 monster.attacks = {

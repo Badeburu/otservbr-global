@@ -16,3 +16,8 @@ dofile('data/lib/others/others.lua')
 
 -- Quests library
 dofile('data/lib/quests/quest.lua')
+
+dofile('data/lib/vip_system.lua')
+dofile('data/lib/task_.lua')
+dofile('data/lib/tasklib.lua')
+dofile('data/lib/others/woe.lua')

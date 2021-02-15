@@ -17,9 +17,9 @@ monster.raceId = 1927
 monster.Bestiary = {
 	class = "Demon",
 	race = BESTY_RACE_DEMON,
-	toKill = 5000,
-	FirstUnlock = 25,
-	SecondUnlock = 2500,
+	toKill = 5,
+	FirstUnlock = 1,
+	SecondUnlock = 5,
 	CharmsPoints = 100,
 	Stars = 5,
 	Occurrence = 0,
@@ -83,21 +83,22 @@ monster.voices = {
 monster.loot = {
 	{name = "crystal coin", chance = 70540},
 	{name = "platinum coin", chance = 90540, maxCount = 32},
-	{name = "ultimate health potion", chance = 32220, maxCount = 7},
-	{name = "violet gem", chance = 74560},
-	{name = "green gem", chance = 64560},
-	{name = "blue gem", chance = 54560},
+	{name = "ultimate health potion", chance = 12220, maxCount = 7},
+	{name = "violet gem", chance = 14560},
+	{name = "green gem", chance = 14560},
+	{name = "blue gem", chance = 14560},
+	{name = "hailstorm rod", chance = 11920},
 	{name = "northwind rod", chance = 11920},
-	{name = "sacred tree amulet", chance = 21920},
+	{name = "sacred tree amulet", chance = 11920},
 	{id = 38768, chance = 10920}, -- Apron
-	{name = "glacier shoes", chance = 12920},
-	{name = "glacier robe", chance = 22920},
-	{name = "stone skin amulet", chance = 8920},
-	{id = 26189, chance = 28920}, -- Ring of red plasma
+	{name = "glacier shoes", chance = 4920},
+	{name = "glacier robe", chance = 4920},
+	{name = "stone skin amulet", chance = 4920},
+	{id = 26189, chance = 4920}, -- Ring of red plasma
 	{id = 38767, chance = 5920}, -- Head
 	{name = "glacial rod", chance = 3920},
-	{id = 38859, chance = 450}, -- Gruesome fan
-	{id = 38944, chance = 50} -- Bag you desire
+	{id = 38859, chance = 1050}, -- Gruesome fan
+	{id = 38944, chance = 5} -- Bag you desire
 }
 
 monster.attacks = {
